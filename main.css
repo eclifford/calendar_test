@@ -1,0 +1,42 @@
+.calendar {
+  height: 720px;
+}
+.time-container{
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  border-right: 1px solid rgb(213,213,213);
+  padding-right: 5px;
+  height: 100%;
+}
+.events-container {
+  width: 600px;
+  background-color: rgb(236,236,236);
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.event-item {
+  width: 594px;
+  position: absolute;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgb(213,213,213);
+  border-left: 5px solid rgb(81,113,173);
+}
+
+.event-item.left {
+  width: 294px;
+}
+.event-item.right {
+  width: 294px;
+  margin-left: 300px;
+}
+.time-item {
+  height: 60px;
+  vertical-align: top;
+  text-align: right;
+}
+
